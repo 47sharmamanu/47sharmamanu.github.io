@@ -1,0 +1,175 @@
+body {
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+top-line {
+    margin-top: 10px;
+    background-color: #00827f !important;
+}
+
+hr {
+    margin-bottom: 0px;
+    border-bottom: 1px solid teal;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.nav-quick-links {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 95%;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (max-width:400px){
+
+}
+
+a{
+    color:#D3D3D3;
+}
+
+a:hover,
+a:focus{
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+align-right {
+    align-content: flex-end;
+}
+
+.bordered {
+    border: 2px solid white;
+}
+
+.main-content {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 95%;
+    width: 100%;
+}
+
+.first-section {
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 5s;
+    animation-name: fadeIn;
+    animation-duration: 5s
+}
+
+.center-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-horizontal {
+    text-align: center;
+    align-items: center;
+}
+
+.teal {
+    color: #00827f !important;
+}
+
+.work-experience{
+    position: relative;
+}
+
+.icon-100-25 {
+    width: 100px;
+    height: 25px;
+}
+
+.icon-15 {
+    width: 15px;
+    height: 15px;
+}
+
+.drive-images{
+    height: 200px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
