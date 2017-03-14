@@ -11,17 +11,17 @@
 body {
     font-size: 14px;
     color: white;
+    padding: 0px;
+    margin:0px;
 }
 
 ul{
 list-style-type: none;
-text-align: center;
 }
 
 li{
-display: inline;
-padding-left: 20px;
-padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a{
@@ -41,6 +41,22 @@ img{
     max-height:100%;
 }
 
+#main{
+    transition: margin-left .5s;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.88); /*translucent Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
 .m-background{
     background: url("../images/myImageCamera.jpg") no-repeat;
     height: 100%;
@@ -54,6 +70,21 @@ img{
     z-index: -1;
 }
 
+.hamburger-container{
+    position: fixed;
+    font-size: 21px;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.closebtn{
+font-size: 36px;
+text-align: right;
+margin-right: 10px;
+
+}
+
 .black-tint{
     background-color: rgba(0, 0, 0, 0.66);
     height: : 100%;
@@ -64,8 +95,7 @@ img{
 
 /*index page*/
 .m-content{
-    /*background-color: rgba(0, 0, 0, 0.66);*/
-    min-height: : 100%;
+    position: relative;
     width:100%;
     min-width: 100%;
     min-height: 100%;
@@ -82,11 +112,12 @@ img{
     padding-bottom: 20px;
     margin: 0 auto;
     width: 99%;
-    height: 10%
+    height: 10%;
+    display:none;
 }
 
 .welcome-board{
-    position: relative;
+    
     width: 100%;
     display: inline-block;
     height: 90%;
@@ -101,21 +132,21 @@ img{
 
 .hi-message{
     font-family: greatvibes;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .positions{
     font-family: greatvibes;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .greeting-message-seperator{
-    width: 50%
+    width: 90%
 }
 
 .work-together-link{
-    font-size: 21px;
-    margin-top: 70px;
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 
