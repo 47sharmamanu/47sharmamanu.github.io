@@ -1,18 +1,9 @@
-@font-face {
-    font-family: blacksword;
-    src: url(../fonts/Blacksword.otf);
-}
-
-@font-face {
-    font-family: greatvibes;
-    src: url(../fonts/GreatVibes-Regular.ttf);
-}
-
 body {
     font-size: 14px;
     color: white;
     padding: 0px;
     margin:0px;
+    background-color: #000;
 }
 
 ul{
@@ -64,7 +55,7 @@ img{
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
@@ -75,7 +66,12 @@ img{
     font-size: 21px;
     top: 20px;
     left: 20px;
+    /*background-color: rgba(0, 0, 0, 0.88);*/
     z-index: 3;
+}
+
+.hamburger-icon{
+    
 }
 
 .closebtn{
@@ -117,10 +113,9 @@ margin-right: 10px;
 }
 
 .welcome-board{
-    
     width: 100%;
-    display: inline-block;
-    height: 90%;
+    display: block;
+    height: 100%;
 }
 
 .welcome{
@@ -147,22 +142,26 @@ margin-right: 10px;
 .work-together-link{
     font-size: 15px;
     margin-top: 30px;
+    background-color: #d82b72 !important;
+    border-radius: 25px !important;
 }
 
-
-/*about me*/
-.profile-image-div{
-    position: absolute;
-    width: 50%;
-    height: 70%;
+.project-list{
+    width: 95%;
+    margin: auto;
+    position: relative;
 }
 
-.profile-summary-div{
-    position: absolute;
-    width: 50%;
-    height: 70%;
+.project-item{
+        
 }
 
-.profile-image{
+.project-item-well{
 
+}
+
+@media screen and (min-width: 550px){
+    .project-item{
+        width: 50%; 
+}
 }

@@ -19,6 +19,9 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+$.material.init();
+
 function onDownloadResumeClicked() {
     var modal = document.getElementById('myModal');
     modal.style.display = "block";
@@ -33,13 +36,10 @@ function onClosedClicked() {
 function openNav() {
     console.log("openNav")
     document.getElementById("mySidenav").style.width = "100%";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     console.log("closeNav()")
      document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    document.body.style.backgroundColor = "white";
 }

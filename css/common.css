@@ -1,0 +1,17 @@
+@font-face {
+    font-family: blacksword;
+    src: url(../fonts/Blacksword.otf);
+}
+
+@font-face {
+    font-family: greatvibes;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+.text-black{
+    color:black !important; 
+}
+
+.text-accent{
+    color:#d82b72 !important; 
+}

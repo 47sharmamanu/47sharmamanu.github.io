@@ -62,10 +62,20 @@ img{
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.hamburger-container{
+    position: fixed;
+    font-size: 21px;
+    top: 20px;
+    left: 20px;
+    display: none;
+    background-color: background-color: rgba(0, 0, 0, 0.88);
+    z-index: 3;
 }
 
 .black-tint{
@@ -133,19 +143,22 @@ img{
 }
 
 
-/*about me*/
-.profile-image-div{
-    position: absolute;
-    width: 50%;
-    height: 70%;
+.project-list{
+    width: 95%;
+    margin: auto;
+    position: relative;
 }
 
-.profile-summary-div{
-    position: absolute;
-    width: 50%;
-    height: 70%;
+.project-item{
+
 }
 
-.profile-image{
+.project-item-well{
+    
+}
 
+@media screen and (min-width: 900px){
+    .project-item{
+        width: 25%;
+}
 }
