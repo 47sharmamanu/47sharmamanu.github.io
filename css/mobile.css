@@ -152,6 +152,27 @@ margin-right: 10px;
     position: relative;
 }
 
+.project-item .well h4{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 20px;     /* fallback */
+   max-height: 20px;      /* fallback */
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+
+.project-item .well p{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 64px;      /* fallback */
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
 .project-item{
         
 }
@@ -160,8 +181,52 @@ margin-right: 10px;
 
 }
 
+.line{
+    border-top:2px solid;
+    border-color: #d82b72;
+    color: #d82b72;
+    margin: auto;
+    position: relative;
+    top: 50%;
+}
+
+.line-container{
+    height: 100%;
+}
+
+.sub-header-div{
+    padding-top: 30px;
+    height: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.sub-header-text{
+    border-radius: 25px;
+    border: 2px solid #d82b72;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    background-color: #d82b72;
+    transform: translateY(-50%);
+}
+
 @media screen and (min-width: 550px){
     .project-item{
         width: 50%; 
+}
+
+.project-item .well p{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 48px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 }

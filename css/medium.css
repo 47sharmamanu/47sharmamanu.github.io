@@ -24,14 +24,14 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
-a{
+.menu-link{
     font-family: inherit;
     text-decoration: none !important;
     color: inherit;
     padding: 5px;
 }
 
-a:hover{
+.menu-link:hover{
     color: #ffff00;
     border-bottom: 1px solid;
 }
@@ -134,7 +134,14 @@ img{
 }
 
 .greeting-message-seperator{
-    width: 50%
+    width: 70%
+}
+
+.work-together-link{
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: #d82b72 !important;
+    border-radius: 25px !important;
 }
 
 .work-together-link{
@@ -149,12 +156,59 @@ img{
     position: relative;
 }
 
-.project-item{
-
+.project-item .well h4{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 20px;     /* fallback */
+   max-height: 20px;      /* fallback */
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 
-.project-item-well{
-    
+
+.project-item .well p{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 48px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.line{
+    border-top:2px solid;
+    border-color: #d82b72;
+    color: #d82b72;
+    margin: auto;
+    position: relative;
+    top: 50%;
+}
+
+.line-container{
+    height: 100%;
+}
+
+.sub-header-div{
+    padding-top: 30px;
+    height: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.sub-header-text{
+    border-radius: 25px;
+    border: 2px solid #d82b72;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    background-color: #d82b72;
+    transform: translateY(-50%);
 }
 
 @media screen and (min-width: 900px){
