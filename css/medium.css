@@ -1,3 +1,7 @@
+*{
+    /*border:1px solid red;*/
+}
+
 @font-face {
     font-family: blacksword;
     src: url(../fonts/Blacksword.otf);
@@ -10,19 +14,13 @@
 
 body {
     font-size: 14px;
-    color: white;
 }
 
 ul{
 list-style-type: none;
-text-align: center;
+padding: 0px !important;
 }
 
-li{
-display: inline;
-padding-left: 20px;
-padding-right: 20px;
-}
 
 .menu-link{
     font-family: inherit;
@@ -113,7 +111,7 @@ img{
     position: relative;
     width: 100%;
     display: inline-block;
-    height: 90%;
+    height: 100%;
 }
 
 .welcome{
@@ -121,32 +119,22 @@ img{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-}
+}l̥
 
-.hi-message{
-    font-family: greatvibes;
+.title-message{
     font-size: 60px;
 }
 
-.positions{
-    font-family: greatvibes;
-    font-size: 40px;
+.sub-title-message{
+    margin-top: 100px;
 }
 
-.greeting-message-seperator{
-    width: 70%
-}
 
 .work-together-link{
     font-size: 15px;
-    margin-top: 30px;
-    background-color: #d82b72 !important;
+    background-color: #008080 !important;
     border-radius: 25px !important;
-}
-
-.work-together-link{
-    font-size: 21px;
-    margin-top: 70px;
+    font-size: 18px;
 }
 
 
@@ -166,6 +154,18 @@ img{
    -webkit-box-orient: vertical;
 }
 
+.well-updated-project-item{
+    padding: 0px !important;
+    background: url("../images/holi1.jpg") no-repeat;
+    min-height: 200px;
+    padding: 10px !important;
+    position: relative;
+}
+
+.project-item-content{
+    position: absolute;
+    bottom: 0;
+}
 
 .project-item .well p{
     overflow: hidden;
@@ -175,6 +175,18 @@ img{
    max-height: 48px;      /* fallback */
    -webkit-line-clamp: 3; /* number of lines to show */
    -webkit-box-orient: vertical;
+}
+
+.area-title{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.who-am-i{
+    margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .line{
@@ -209,6 +221,33 @@ img{
     font-size: 20px;
     background-color: #d82b72;
     transform: translateY(-50%);
+}
+
+footer{
+    background-color: #008080;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.footer-links{
+    color: white;
+}
+
+.footer-links:hover{
+    color: white;
+}
+
+.form-group{
+    margin-top: 8px !important;
+}
+
+.footer-form-control{
+    color: white;
+}
+
+.footer-help-block{
+    color: white;
 }
 
 @media screen and (min-width: 900px){

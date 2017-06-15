@@ -16,138 +16,215 @@
     <!--this has to be at last to override all other css-->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/animation.css">
-    <link rel='stylesheet' media='screen and (max-width: 768px)' href='css/mobile.css' />
-    <link rel='stylesheet' media='screen and (min-width: 769px) and (max-width: 18000px)' href='css/medium.css' />
+    <link rel='stylesheet' href='css/medium.css' />
+    <!-- <link rel='stylesheet' media='screen and (min-width: 769px) and (max-width: 18000px)' href='css/medium.css' /> -->
     <!-- jquery -->
     <script src="js/jquery-3.1.1.js"></script>
 </head>
 
 <body>
-    <!-- <div style="background-color: #ffff00;color: #000"><marquee>This Web site is under development.</marquee></div> -->
-    <div id="mySidenav" class="sidenav">
-      <p class="closebtn" onclick="closeNav()">&times;</p>
-      <ul>
-        <li><a class="menu-link" href="#workdone" onclick="closeNav()">Projects</a></li>
-        <li><a class="menu-link" href="#somehwere" onclick="closeNav()">Skills</a></li>
-        <li><a class="menu-link" href="#somewhere" onclick="closeNav()">About me</a></li>
-        <li><a class="menu-link" href="#somehwere" onclick="closeNav()">Contact me</a></li>
-    </ul>
+<div style="background-color: yellow; color: black;">
+	<marquee>This website is under development. It might have dummy data and some functionality might not work.</marquee>
 </div>
-<div id="main">
-    <div class="m-background">
-        <!-- do nothing this is for background -->
-        <div class="black-tint"></div>
-    </div>
-    <div class="m-content">
-      <div class="hamburger-container" onclick="openNav()">
-      &#9776;
-        </div>
-         <div class = m-nav-bar>
-            <ul>
-                <li><a class="menu-link" href="#workdone">Projects</a></li>
-                <li><a class="menu-link" href="#somehwere">Skills</a></li>
-                <li><a class="menu-link" href="about-me.html">About me</a></li>
-                <li><a class="menu-link" href="#somehwere">Contact me</a></li>
-            </ul>
-        </div>
-
+<div id="main" class="container-fluid no-padding">
         <div class="welcome-board">
             <div class="welcome">
-                <h1 class="hi-message">Hi, I am manu sharma</h1>
-                <hr class = "greeting-message-seperator">
-                <h2 class="positions">Android developer</h2>
+                <h1 class="title-message">Need a freelance developer for your awesome business or idea?</h1>
+                <h2 class="sub-title-message">You have come to right place!</h2>
                 <a class="work-together-link btn btn-raised btn-danger">Let's work together?
                     <div class="ripple-container"></div></a>
                 </div>
             </div>
 
-            <div id="workdone" class="row sub-header-div">
-                <div class="col-xs-4 line-container"><hr class="line"></div>
-                <div class="sub-header-text col-xs-4">Work done</div>
-                <div class="col-xs-4 line-container"><hr class="line"></div>
+            <!-- START: The geek and his achievments -->
+            <div class="area-title">
+            	The Geek and His Achievements
             </div>
-
             <div class="project-list">
-                <div class="row"> 
+                <div class="row">
                 <div class="col-xs-12 col-sm-4  project-item">
-                        <div class="well well-sm">
-                            <img src="images/holi1.jpg" class="img-responsive img-rounded project-img">
-                            <h4 class="text-black"><a>BookMyTime</a></h4>
-                            <p class="text-black">An appilcation for car owners to book car services, car care services,
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
 repairs, towing etc; and also for potential buyers who opt to buy new 
 cars.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 project-item">
-                        <div class="well well-sm">
-                        <img src="images/holi1.jpg" class="img-responsive project-img">
-                           <h4 class="text-black"><a>Industrial Revolution Client</a></h4>
-                            <p class="text-black">An application for oil-gas based industries to book engineering
-and repair services from different vendors.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4  project-item">
-                        <div class="well well-sm">
-                            <img src="images/holi1.jpg" class="img-responsive project-img">
-                            <h4 class="text-black"><a>BookMyTime</a></h4>
-                            <p class="text-black">An appilcation for car owners to book car services, car care services,
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
 repairs, towing etc; and also for potential buyers who opt to buy new 
 cars.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 project-item">
-                        <div class="well well-sm">
-                        <img src="images/holi1.jpg" class="img-responsive project-img">
-                           <h4 class="text-black"><a>Industrial Revolution Client</a></h4>
-                            <p class="text-black">An application for oil-gas based industries to book engineering
-and repair services from different vendors.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4  project-item">
-                        <div class="well well-sm">
-                            <img src="images/holi1.jpg" class="img-responsive project-img">
-                            <h4 class="text-black"><a>BookMyTime</a></h4>
-                            <p class="text-black">An appilcation for car owners to book car services, car care services,
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
 repairs, towing etc; and also for potential buyers who opt to buy new 
 cars.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4 project-item">
-                        <div class="well well-sm">
-                        <img src="images/holi1.jpg" class="img-responsive project-img">
-                           <h4 class="text-black"><a>Industrial Revolution Client</a></h4>
-                            <p class="text-black">An application for oil-gas based industries to book engineering
+                    
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">Industrial Revolution Client</a></h4>
+                            <p class="text-white">An application for oil-gas based industries to book engineering
 and repair services from different vendors.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4  project-item">
-                        <div class="well well-sm">
-                            <img src="images/holi1.jpg" class="img-responsive project-img">
-                            <h4 class="text-black"><a>BookMyTime</a></h4>
-                            <p class="text-black">An appilcation for car owners to book car services, car care services,
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
 repairs, towing etc; and also for potential buyers who opt to buy new 
 cars.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4 project-item">
-                        <div class="well well-sm">
-                        <img src="images/holi1.jpg" class="img-responsive project-img">
-                           <h4 class="text-black"><a>Industrial Revolution Client</a></h4>
-                            <p class="text-black">An application for oil-gas based industries to book engineering
-and repair services from different vendors.</p>
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
+repairs, towing etc; and also for potential buyers who opt to buy new 
+cars.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4 project-item">
-                        <div class="well well-sm">
-                        <img src="images/holi1.jpg" class="img-responsive project-img">
-                           <h4 class="text-black"><a>Industrial Revolution Client</a></h4>
-                            <p class="text-black">An application for oil-gas based industries to book engineering
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">Industrial Revolution Client</a></h4>
+                            <p class="text-white">An application for oil-gas based industries to book engineering
 and repair services from different vendors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">BookMyTime</a></h4>
+                            <p class="text-white">An appilcation for car owners to book car services, car care services,
+repairs, towing etc; and also for potential buyers who opt to buy new 
+cars.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">Industrial Revolution Client</a></h4>
+                            <p class="text-white">An application for oil-gas based industries to book engineering
+and repair services from different vendors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4  project-item">
+                        <div class="well well-sm well-updated-project-item">
+                            <!-- <img src="images/holi1.jpg" class="img-responsive project-img"> -->
+                            <div class="project-item-content">
+                            	<h4 class=""><a class="text-white">Industrial Revolution Client</a></h4>
+                            <p class="text-white">An application for oil-gas based industries to book engineering
+and repair services from different vendors.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
+            <!-- END: The geek and his achievments -->
+
+            <!-- START: Who am i? -->
+            <div class="who-am-i">
+            	<div class="well well-sm">
+            	 	<div class="area-title">
+            			Who am i?
+            		</div>
+            		<div class="row">
+            			<img class="img-responsive col-sm-4" src="images/myImageCamera.jpg">
+            			<p class="col-sm-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            		</div>
+            	</div>
+            </div>
+
+            <!-- END Who am i? -->
+
+            <!-- START: footer -->
+            <footer class="footer">
+            	<div class="row">
+
+            		<div class="col-sm-6">
+            			<h4><strong>Other links:</strong></h4>
+
+            			<ul>
+            				<li><a class="footer-links" href=""><i class="material-icons">phone_in_talk</i>+91-7259980216</a></li>
+            				<li><a class="footer-links" href=""><i class="material-icons">mail</i>47sharma.manu@gmail.com</a></li>
+            				<li><a class="footer-links" href="">/47sharmamanu</a></li>
+            				<li><a class="footer-links" href="">/47sharmamanu</a></li>
+            			</ul>
+            		</div>
+
+            		<div class="col-sm-6">
+            			<h4><strong>Contact me:</strong></h4>
+
+            			<!-- contact me Form -->
+
+            			<div class="form-group row">
+						  <div class="col-10">
+						    <input class="form-control footer-form-control" type="text"	 placeholder="Name*">
+						    <div class="help-block footer-help-block with-errors">Please enter your name. Nick name is fine too.</div>
+						  </div>
+						</div>
+
+						<div class="form-group row">
+						  <div class="col-10">
+						    <input class="form-control footer-form-control" type="email" placeholder="Email*">
+						    <div class="help-block footer-help-block with-errors">Please enter your valid email address</div>
+						  </div>
+						</div>
+
+						<div class="form-group row">
+						  <div class="col-10">
+						    <input class="form-control footer-form-control" type="text" placeholder="Subject*">
+						    <div class="help-block footer-help-block with-errors">Please enter subject</div>
+						  </div>
+						</div>
+
+						<div class="form-group row">
+						  <div class="col-10">
+						    <textarea class="form-control footer-form-control" type="text" placeholder="Message*" rows="4"></textarea>
+						    <div class="help-block footer-help-block with-errors">Please enter message for me.</div>
+						  </div>
+						</div>
+
+                		<input type="submit" class="btn btn-raised btn-send" value="Send message">
+            		
+            	</div>
+
+            	<div class=""> All rights reserved. copyright 2017-2020</div>
+            </footer>
+            <!-- END: footer -->
         </div>
         <!-- bootstrap js -->
         <script type="text/javascript" src="js/bootstrap.js"></script>

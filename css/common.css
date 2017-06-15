@@ -15,3 +15,11 @@
 .text-accent{
     color:#d82b72 !important; 
 }
+
+.text-white{
+    color:#FFFFFF !important; 
+}
+
+.no-padding{
+	padding: 0px !important;
+}
